@@ -1,0 +1,773 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文（中华人民共和国） resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "FileDescription", "zhftool ObjectARX application"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "zhftool"
+            VALUE "LegalCopyright", "Copyright ?2002"
+            VALUE "OriginalFilename", "zhfzhftool.arx"
+            VALUE "ProductName", "zhftool Application"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PMT_SET_REPLACEBLOCK DIALOGEX 0, 0, 266, 249
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "平面图替换块设置"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "信号机",IDC_RADIO_PMTRB_XHJ,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,12,16,40,10
+    PUSHBUTTON      "...",IDC_BUTTON_PMTRB_XHJ_SEL,215,39,28,14
+    CONTROL         "道岔",IDC_RADIO_PMTRB_DC,"Button",BS_AUTORADIOBUTTON,12,
+                    132,32,10
+    CONTROL         "绝缘节",IDC_RADIO_PMTRB_JYJ,"Button",BS_AUTORADIOBUTTON,
+                    12,72,40,10
+    CONTROL         "警冲标",IDC_RADIO_PMTRB_JCB,"Button",BS_AUTORADIOBUTTON,
+                    12,158,40,10
+    DEFPUSHBUTTON   "确定",IDOK,78,214,50,14
+    PUSHBUTTON      "取消",IDCANCEL,136,214,50,14
+    LTEXT           "要替换的图块",IDC_STATIC,28,42,49,8
+    EDITTEXT        IDC_EDIT_PMTRB_XHJ_BLKNAME,80,38,130,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    CONTROL         "普通",IDC_RADIO_PMTRB_JYJ1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,27,94,28,10
+    CONTROL         "尽头",IDC_RADIO_PMTRB_JY2,"Button",BS_AUTORADIOBUTTON,
+                    84,95,28,10
+    CONTROL         "切割",IDC_RADIO_PMTRB_JYJ3,"Button",BS_AUTORADIOBUTTON,
+                    141,95,28,10
+    CONTROL         "超限",IDC_RADIO_PMTRB_JYJ4,"Button",BS_AUTORADIOBUTTON,
+                    198,94,28,10
+    GROUPBOX        "",IDC_STATIC,23,28,224,29
+    GROUPBOX        "",IDC_STATIC,23,84,224,29
+    CONTROL         140,IDC_STATIC,"Static",SS_BITMAP,58,94,12,11
+    CONTROL         141,IDC_STATIC,"Static",SS_BITMAP,115,94,12,11
+    CONTROL         142,IDC_STATIC,"Static",SS_BITMAP,173,94,12,11
+    CONTROL         143,IDC_STATIC,"Static",SS_BITMAP,229,94,12,11
+    CONTROL         "带距离",IDC_CHECK_JYJWITHDIST,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,58,72,40,10
+    CONTROL         "带绝缘节",IDC_CHECK_RBSET_XHJWITHJYJ,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,58,16,48,10
+END
+
+IDD_INPUTTEXT DIALOGEX 0, 0, 214, 150
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "文本输入"
+FONT 10, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_INPUTTEXT_TEXT,31,6,175,14,ES_AUTOHSCROLL
+    CONTROL         "设置",IDC_CHECK_INPUTTEXT_SET,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,25,30,31,8,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT_INPUTTEXT_X_OFFSET,58,43,48,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    EDITTEXT        IDC_EDIT_INPUTTEXT_Y_OFFSET,152,43,52,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    EDITTEXT        IDC_EDIT_INPUTTEXT_HEIGHT,58,62,48,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    EDITTEXT        IDC_EDIT_INPUTTEXT_WIDTH,58,81,48,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    EDITTEXT        IDC_EDIT_INPUTTEXT_ROTATION,58,100,48,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    COMBOBOX        IDC_COMBO_INPUTTEXT_COLOR,152,62,54,69,CBS_DROPDOWNLIST | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBOIDC_INPUTTEXT_JUSTIFY,152,81,54,62,
+                    CBS_DROPDOWNLIST | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_INPUTTEXT_STYLE,152,100,54,52,CBS_DROPDOWNLIST | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,46,133,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,113,133,50,14
+    LTEXT           "文本:",IDC_STATIC,8,9,20,8
+    LTEXT           "X坐标偏移",IDC_STATIC,9,46,35,8
+    LTEXT           "Y坐标偏移",IDC_STATIC,113,46,35,8
+    LTEXT           "Height",IDC_STATIC,9,64,25,8
+    LTEXT           "Width Factor",IDC_STATIC,8,83,49,8
+    LTEXT           "Rotation",IDC_STATIC,8,102,33,8
+    LTEXT           "Color",IDC_STATIC,113,64,21,8
+    LTEXT           "Justify",IDC_STATIC,113,83,29,8
+    LTEXT           "Style",IDC_STATIC,113,102,21,8
+    GROUPBOX        "选项",IDC_STATIC,5,30,205,90
+    LTEXT           "",IDC_STATIC_MSG,12,121,159,8
+END
+
+IDD_SUPERTEXT DIALOG  0, 0, 131, 198
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "BatchText-brtsun@126.com"
+FONT 10, "新宋体"
+BEGIN
+    EDITTEXT        IDC_EDIT_BATCHTEXT_START,53,13,62,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BATCHTEXT_END,53,32,62,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BATCHTEXT_FRONT,53,51,62,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BATCHTEXT_BACK,53,70,62,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BATCHTEXT_INCREMENT,53,103,62,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BATCHTEXT_REPEAT,53,121,62,14,ES_AUTOHSCROLL
+    LTEXT           "前缀文本",IDC_STATIC,14,56,33,8
+    LTEXT           "起始数字",IDC_STATIC,14,16,33,8
+    LTEXT           "结束数字",IDC_STATIC,14,36,33,8
+    LTEXT           "后缀文本",IDC_STATIC,14,76,33,8
+    LTEXT           "增加幅度",IDC_STATIC,14,106,33,8
+    LTEXT           "重复次数",IDC_STATIC,14,124,33,8
+    GROUPBOX        "",IDC_STATIC,7,1,117,88
+    GROUPBOX        "",IDC_STATIC,7,94,117,60
+    LTEXT           "文字方向",IDC_STATIC,22,142,33,8
+    CONTROL         "纵↓",IDC_BATCHTEXT_RADIO1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,58,141,25,10
+    CONTROL         "横→",IDC_BATCHTEXT_RADIO2,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,84,141,25,10
+    DEFPUSHBUTTON   "确定",IDC_BUTTON_Ok,22,163,42,14
+    PUSHBUTTON      "OK",IDOK,7,159,23,14,NOT WS_VISIBLE
+    PUSHBUTTON      "取消",IDCANCEL,66,163,42,14
+END
+
+IDD_FINDREPLACE DIALOG  0, 0, 264, 97
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "查找替换 zhfeng@crscd.com.cn"
+FONT 9, "新宋体"
+BEGIN
+    EDITTEXT        IDC_EDIT_FIND,36,6,163,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_REPLACE,36,24,163,14,ES_AUTOHSCROLL
+    CONTROL         "区分大小写",IDC_CHECK_CASE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,8,50,54,10
+    COMBOBOX        IDC_COMBO_COLOR,155,48,56,67,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "确定",IDOK,215,6,44,14
+    PUSHBUTTON      "取消",IDCANCEL,216,24,44,14
+    LTEXT           "查找:",IDC_STATIC,8,8,28,8
+    LTEXT           "替换:",IDC_STATIC,8,26,28,8
+    LTEXT           "颜色:",IDC_STATIC,129,51,26,8
+    CONTROL         "选择",IDC_RADIO_SELECTION,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,10,75,32,10
+    CONTROL         "全图",IDC_RADIO_CURDWG,"Button",BS_AUTORADIOBUTTON,42,
+                    75,32,10
+    CONTROL         "文件夹",IDC_RADIO_FILEPATH,"Button",BS_AUTORADIOBUTTON,
+                    75,75,40,10
+    GROUPBOX        "查找替换范围",IDC_STATIC,8,64,252,27
+    CONTROL         "正则表达式",IDC_CHECK_REG,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,65,50,56,10
+    EDITTEXT        IDC_EDIT_FILEPATH,119,73,92,13,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    PUSHBUTTON      "...",IDC_BUTTON_SELDIR,213,72,44,14
+END
+
+IDD_CONVERTTEXT DIALOGEX 0, 0, 162, 72
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "转换文本  zhfeng@crscd.com.cn"
+FONT 11, "新宋体", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "转换多行文本",IDOK,24,51,51,14
+    COMBOBOX        IDC_COMBO_ColorIndex,90,5,66,66,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "指定变换后的文本颜色",IDC_STATIC,6,8,81,8
+    PUSHBUTTON      "转换属性文本",IDC_BUTTON_CONV_ATT,87,51,51,14
+    CONTROL         "全图转换",IDC_RADIO_TRANSTEXT_GLOB,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,23,29,48,10
+    CONTROL         "部分转换",IDC_RADIO_TRANSTEXT_PART,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,90,29,48,10
+END
+
+IDD_MODIFYTEXT DIALOG  0, 0, 218, 109
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Modify Text"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,63,84,39,14
+    PUSHBUTTON      "Cancel",IDCANCEL,116,84,39,14
+    LTEXT           "Height",IDC_STATIC,10,24,22,8
+    LTEXT           "Width Factor",IDC_STATIC,10,43,42,8
+    LTEXT           "Rotation",IDC_STATIC,10,62,28,8
+    EDITTEXT        IDC_EDIT_Height,61,24,48,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_WidthFactor,61,42,48,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    EDITTEXT        IDC_EDIT_Rotation,61,60,48,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    LTEXT           "Style",IDC_STATIC,124,41,18,8
+    COMBOBOX        IDC_COMBO_STYLE,154,42,57,70,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Justify",IDC_STATIC,124,19,23,8
+    COMBOBOX        IDC_COMBO_JUSTIFY,154,24,57,88,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "文字尺寸",IDC_STATIC,7,7,108,74
+    CONTROL         "设置",IDC_CHECK_SET,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,42,7,32,8
+END
+
+IDD_STEXTSET DIALOGEX 0, 0, 176, 202
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "批量文本修改"
+FONT 9, "新宋体", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_EDIT_StartNum,69,16,83,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_FrontTxt,69,36,83,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BackTxt,69,56,83,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_IncreNum,69,76,83,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Repeat,69,97,83,14,ES_AUTOHSCROLL
+    CONTROL         "框选",IDC_RADIO_STEXT_WINDOW,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,69,120,32,10
+    CONTROL         "点选",IDC_RADIO_STEXT_PICK,"Button",BS_AUTORADIOBUTTON,
+                    105,120,32,10
+    DEFPUSHBUTTON   "确定",IDOK,33,174,50,14
+    PUSHBUTTON      "取消",IDCANCEL,93,174,50,14
+    LTEXT           "起始数字",IDC_STATIC,23,18,33,8
+    LTEXT           "前缀文本",IDC_STATIC,23,38,33,8
+    LTEXT           "后缀文本",IDC_STATIC,23,58,33,8
+    LTEXT           "增加幅度",IDC_STATIC,23,78,33,8
+    LTEXT           "重复次数",IDC_STATIC,23,99,33,8
+    LTEXT           "选择模式",IDC_STATIC,23,120,33,8
+    CONTROL         "横向",IDC_RADIO_STEXT_X,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,69,136,32,10
+    CONTROL         "纵向",IDC_RADIO_STEXT_Y,"Button",BS_AUTORADIOBUTTON,105,
+                    136,32,10
+    LTEXT           "框选排序",IDC_STATIC,23,137,33,8
+END
+
+IDD_XLSTODWG DIALOG  0, 0, 214, 219
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "EXCEL表格转为CAD"
+FONT 10, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,53,194,50,14
+    PUSHBUTTON      "取消",IDCANCEL,108,194,50,14
+    GROUPBOX        "文件指定",IDC_STATIC,11,12,191,36
+    LTEXT           "地址",IDC_STATIC,20,26,16,8
+    EDITTEXT        IDC_EDIT_XLSTODWG_FILEPATH,54,24,105,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_XLSTODWG_SELECTFILE,165,23,29,14
+    GROUPBOX        "读取范围",IDC_STATIC,11,58,191,52
+    LTEXT           "起始行",IDC_STATIC,20,73,23,8
+    EDITTEXT        IDC_EDIT_XLSTODWG_STARTROW,51,69,49,14,ES_AUTOHSCROLL
+    LTEXT           "结束行",IDC_STATIC,114,72,23,8
+    EDITTEXT        IDC_EDIT_XLSTODWG_ENDROW,148,69,49,14,ES_AUTOHSCROLL
+    LTEXT           "起始列",IDC_STATIC,20,93,23,8
+    EDITTEXT        IDC_EDIT_XLSTODWG_STARTCOL,51,91,49,14,ES_UPPERCASE | 
+                    ES_AUTOHSCROLL
+    LTEXT           "结束列",IDC_STATIC,114,93,23,8
+    EDITTEXT        IDC_EDIT_XLSTODWG_ENDCOL,148,91,49,14,ES_UPPERCASE | 
+                    ES_AUTOHSCROLL
+    GROUPBOX        "转换选项",IDC_STATIC,11,121,191,55
+    CONTROL         "全部读取范围",IDC_RADIO_XLSTODWG_TRANSMODE_ALL,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,15,138,61,10
+    CONTROL         "指定表头标示文字",IDC_RADIO_XLSTODWG_TRANSMODE_SPECIAL,
+                    "Button",BS_AUTORADIOBUTTON,15,157,75,10
+    EDITTEXT        IDC_EDIT_XLSTODWG_MARKTEXT,101,153,96,14,ES_AUTOHSCROLL
+END
+
+IDD_FINDREPLACEBLK DIALOGEX 0, 0, 225, 162
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "批量替换块"
+FONT 10, "宋体", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "...",IDC_BUTTON_FRB_SELNEWDWG,194,25,20,14
+    CONTROL         "选择",IDC_RADIO_FRB_SEL,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,10,64,27,10
+    CONTROL         "全图",IDC_RADIO_FRB_ALL,"Button",BS_AUTORADIOBUTTON,44,
+                    64,27,10
+    CONTROL         "文件夹",IDC_RADIO_FRB_FOLD,"Button",BS_AUTORADIOBUTTON,
+                    77,64,35,10
+    PUSHBUTTON      "...",IDC_BUTTON_FRB_SELFOLD,194,62,20,14,WS_DISABLED
+    CONTROL         "属性映射",IDC_CHECK_FRB_ATT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,11,83,41,10
+    EDITTEXT        IDC_EDIT_FRB_ATT,56,81,158,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    DEFPUSHBUTTON   "确定",IDOK,51,137,50,14
+    PUSHBUTTON      "取消",IDCANCEL,111,137,50,14
+    LTEXT           "目标块名（旧）",IDC_STATIC,8,10,52,8
+    LTEXT           "替换块名（新）",IDC_STATIC,8,29,52,8
+    EDITTEXT        IDC_EDIT_FRB_FOLD,113,62,79,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    GROUPBOX        "选项",IDC_STATIC,7,49,212,80
+    LTEXT           "1.属性映射区分大小写；\n2.格式：旧属性名 ,新属性名;旧属性名 ,新属性名......",
+                    IDC_STATIC,11,104,202,18,0,WS_EX_TRANSPARENT
+    COMBOBOX        IDC_COMBO_FRB_OLDBLK,64,8,127,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_FRB_NEWBLK,64,26,127,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_CHANGEFILENAME DIALOGEX 0, 0, 163, 186
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "文件更名 zhfeng@crscd.com.cn"
+FONT 10, "宋体", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_EDIT_CHANGEFILENAME_OLD,41,7,106,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CHANGEFILENAME_NEW,41,24,106,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_CHANGEFILENAME_SELECT,128,65,24,14
+    COMBOBOX        IDC_COMBO_CHANGEFILENAME_EXT,41,84,85,50,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,32,157,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,85,157,50,14
+    LTEXT           "原字符",IDC_STATIC,11,10,25,8
+    LTEXT           "替换成",IDC_STATIC,11,27,25,8
+    EDITTEXT        IDC_EDIT_CHANGEFILENAME_FILEPATH,41,66,85,14,
+                    ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "路径",IDC_STATIC,11,69,17,8
+    LTEXT           "类型",IDC_STATIC,11,87,17,8
+    LTEXT           "(后缀)",IDC_STATIC,128,86,24,8
+    LTEXT           "说明：该操作会搜索选定路径下所有文件，包括子目录下的文件",
+                    IDC_STATIC,10,117,141,17
+    GROUPBOX        "选择文件路径",IDC_STATIC,9,52,146,92
+END
+
+IDD_SHOWBLKATT DIALOGEX 0, 0, 182, 100
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "显示/隐藏块属性"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_SHOWBLKATT_BLKNAME,38,11,133,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SHOWBLKATT_ATTS,39,34,133,14,ES_AUTOHSCROLL
+    CONTROL         "显示",IDC_RADIO_SHOWBLKATT_SHOW,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,63,58,32,10
+    CONTROL         "隐藏",IDC_RADIO_SHOWBLKATT_HIDE,"Button",
+                    BS_AUTORADIOBUTTON,117,58,32,10
+    DEFPUSHBUTTON   "确定",IDOK,47,79,37,14
+    PUSHBUTTON      "取消",IDCANCEL,96,79,37,14
+    LTEXT           "块名",IDC_STATIC,14,15,17,8
+    LTEXT           "属性",IDC_STATIC,14,37,17,8
+    LTEXT           "状态",IDC_STATIC,14,59,17,8
+END
+
+IDD_EDITTEXT DIALOG  0, 0, 218, 61
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "修改文本  zhfeng@crscd.com.cn"
+FONT 10, "新宋体"
+BEGIN
+    EDITTEXT        IDC_MODIFYTEXT_EDIT1,26,6,186,14,ES_AUTOHSCROLL
+    CONTROL         "红",IDC_MODIFYTEXT_RADIO1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,25,27,18,10
+    CONTROL         "黄",IDC_MODIFYTEXT_RADIO2,"Button",BS_AUTORADIOBUTTON,
+                    48,27,18,10
+    CONTROL         "绿",IDC_MODIFYTEXT_RADIO3,"Button",BS_AUTORADIOBUTTON,
+                    71,27,18,10
+    CONTROL         "青",IDC_MODIFYTEXT_RADIO4,"Button",BS_AUTORADIOBUTTON,
+                    94,27,18,10
+    CONTROL         "蓝",IDC_MODIFYTEXT_RADIO5,"Button",BS_AUTORADIOBUTTON,
+                    117,27,18,10
+    CONTROL         "紫",IDC_MODIFYTEXT_RADIO6,"Button",BS_AUTORADIOBUTTON,
+                    140,27,18,10
+    CONTROL         "白",IDC_MODIFYTEXT_RADIO7,"Button",BS_AUTORADIOBUTTON,
+                    163,27,18,10
+    CONTROL         "不变",IDC_MODIFYTEXT_RADIO8,"Button",BS_AUTORADIOBUTTON,
+                    186,27,26,10
+    DEFPUSHBUTTON   "确定",IDC_ConFirm,60,43,42,14
+    PUSHBUTTON      "取消",IDCANCEL,116,43,42,14
+    CONTROL         "Radio9",IDC_MODIFYTEXT_RADIO9,"Button",
+                    BS_AUTORADIOBUTTON | NOT WS_VISIBLE,33,40,18,10
+    LTEXT           "文字",IDC_STATIC,6,7,17,8
+    LTEXT           "颜色",IDC_STATIC,6,27,17,8
+    DEFPUSHBUTTON   "OK",IDOK,2,40,24,14,NOT WS_VISIBLE
+END
+
+IDD_GETXLSHEIGHT DIALOG  0, 0, 178, 155
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ExcelToCad 高度和宽度计算"
+FONT 10, "宋体"
+BEGIN
+    EDITTEXT        IDC_EDIT_GETHW_CAD_H,73,15,93,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GETHW_CAD_W,73,42,93,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GETHW_EXCEL_H,73,69,93,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GETHW_EXCEL_W,73,96,93,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "计算",IDC_BUTTON_GETHW_DONE,34,128,50,14
+    PUSHBUTTON      "退出",IDCANCEL,101,128,50,14
+    PUSHBUTTON      "OK",IDOK,121,7,50,14,NOT WS_VISIBLE
+    LTEXT           "CAD中高度",IDC_STATIC,10,17,35,8
+    LTEXT           "CAD中宽度",IDC_STATIC,10,45,35,8
+    LTEXT           "对应EXCEL中高度",IDC_STATIC,10,73,58,8
+    LTEXT           "对应EXCEL中宽度",IDC_STATIC,10,101,58,8
+END
+
+IDD_GETDIANLAN DIALOGEX 0, 0, 196, 236
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "电缆、箱盒统计"
+FONT 10, "宋体", 400, 0, 0x86
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,159,86,17,14,NOT WS_VISIBLE
+    PUSHBUTTON      "取消",IDCANCEL,99,208,33,14
+    LTEXT           "图纸目录",IDC_STATIC,7,13,33,8
+    PUSHBUTTON      "...",IDC_BUTTON_GetDianlanDir,157,11,26,14
+    PUSHBUTTON      "确定",IDC_BUTTON_Do,60,208,33,14
+    EDITTEXT        IDC_EDIT_DIANLANDIR,42,11,110,14,ES_AUTOHSCROLL
+    LTEXT           "匹配字符",IDC_STATIC,11,75,31,8
+    EDITTEXT        IDC_EDIT_GETDIANLAN_REG,46,73,110,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    CONTROL         "修改",IDC_CHECK_GETDIANLAN_MOREG,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,159,72,27,10
+    CONTROL         "按目录统计",IDC_RADIO_GETDIANLAN_1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,42,37,53,10
+    CONTROL         "按文件统计",IDC_RADIO_GETDIANLAN_2,"Button",
+                    BS_AUTORADIOBUTTON,98,37,53,10
+    LTEXT           "统计方式",IDC_STATIC,7,38,31,8
+    LTEXT           "1.若要统计轨道电路，请勾选“按文件统计”；\n2.正则“匹配字符”用以定义被统计文本特征，默认是形如10-6L(2)，”电缆长度“：""匹配字符""中用来表示电缆长度的字符位于第几个括号，第一个则为”$1"",“电缆型号”同理。此处不熟勿改。\n3.形如10-6LG(2)的电缆会被统计为干线电缆。",
+                    IDC_STATIC,14,135,173,55
+    GROUPBOX        "注意",IDC_STATIC,7,120,182,73
+    LTEXT           "电缆长度",IDC_STATIC,11,93,31,8
+    EDITTEXT        IDC_EDIT_GETDIANLAN_REG_LEN,46,90,36,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "电缆型号",IDC_STATIC,85,93,31,8
+    EDITTEXT        IDC_EDIT_GETDIANLAN_REG_TYPE,120,90,36,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    GROUPBOX        "正则",IDC_STATIC,7,59,182,55
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_PMT_SET_REPLACEBLOCK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 259
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 242
+    END
+
+    IDD_INPUTTEXT, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 149
+    END
+
+    IDD_FINDREPLACE, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 260
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 91
+    END
+
+    IDD_CONVERTTEXT, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 156
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 67
+    END
+
+    IDD_MODIFYTEXT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 211
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 102
+        HORZGUIDE, 15
+    END
+
+    IDD_STEXTSET, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 169
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 195
+    END
+
+    IDD_XLSTODWG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 207
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 212
+    END
+
+    IDD_FINDREPLACEBLK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 218
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 155
+    END
+
+    IDD_CHANGEFILENAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 156
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 179
+    END
+
+    IDD_SHOWBLKATT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 175
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 93
+    END
+
+    IDD_GETXLSHEIGHT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 171
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 148
+    END
+
+    IDD_GETDIANLAN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 189
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 229
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_JYJ4                BITMAP                  "res\\jyj4.bmp"
+IDB_JYJ3                BITMAP                  "res\\jyj3.bmp"
+IDB_JYJ2                BITMAP                  "res\\jyj2.bmp"
+IDB_JYJ1                BITMAP                  "res\\jyj1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_INPUTTEXT DLGINIT
+BEGIN
+    IDC_COMBO_INPUTTEXT_COLOR, 0x403, 15, 0
+0xe6cb, 0xe9bf, 0x6120, 0x4263, 0x4279, 0x6f6c, 0x6b63, "\000" 
+    IDC_COMBO_INPUTTEXT_COLOR, 0x403, 11, 0
+0xecba, 0xabc9, 0x6120, 0x5263, 0x6465, "\000" 
+    IDC_COMBO_INPUTTEXT_COLOR, 0x403, 14, 0
+0xc6bb, 0xabc9, 0x6120, 0x5963, 0x6c65, 0x6f6c, 0x0077, 
+    IDC_COMBO_INPUTTEXT_COLOR, 0x403, 13, 0
+0xccc2, 0xabc9, 0x6120, 0x4763, 0x6572, 0x6e65, "\000" 
+    IDC_COMBO_INPUTTEXT_COLOR, 0x403, 12, 0
+0xe0c7, 0xabc9, 0x6120, 0x4363, 0x6179, 0x006e, 
+    IDC_COMBO_INPUTTEXT_COLOR, 0x403, 12, 0
+0xb6c0, 0xabc9, 0x6120, 0x4263, 0x756c, 0x0065, 
+    IDC_COMBO_INPUTTEXT_COLOR, 0x403, 15, 0
+0xf3d1, 0xecba, 0x6120, 0x4d63, 0x6761, 0x6e65, 0x6174, "\000" 
+    IDC_COMBO_INPUTTEXT_COLOR, 0x403, 13, 0
+0xd7b0, 0xabc9, 0x6120, 0x5763, 0x6968, 0x6574, "\000" 
+    IDC_COMBO_INPUTTEXT_COLOR, 0x403, 15, 0
+0xe6cb, 0xe3b2, 0x6120, 0x4263, 0x4c79, 0x7961, 0x7265, "\000" 
+    IDC_COMBOIDC_INPUTTEXT_JUSTIFY, 0x403, 11, 0
+0xacc4, 0xcfc8, 0x4c28, 0x6665, 0x2974, "\000" 
+    IDC_COMBOIDC_INPUTTEXT_JUSTIFY, 0x403, 5, 0
+0x654c, 0x7466, "\000" 
+    IDC_COMBOIDC_INPUTTEXT_JUSTIFY, 0x403, 7, 0
+0x6543, 0x746e, 0x7265, "\000" 
+    IDC_COMBOIDC_INPUTTEXT_JUSTIFY, 0x403, 6, 0
+0x6952, 0x6867, 0x0074, 
+    IDC_COMBOIDC_INPUTTEXT_JUSTIFY, 0x403, 8, 0
+0x6c41, 0x6769, 0x656e, 0x0064, 
+    IDC_COMBOIDC_INPUTTEXT_JUSTIFY, 0x403, 7, 0
+0x694d, 0x6464, 0x656c, "\000" 
+    IDC_COMBOIDC_INPUTTEXT_JUSTIFY, 0x403, 4, 0
+0x6946, 0x0074, 
+    IDC_COMBOIDC_INPUTTEXT_JUSTIFY, 0x403, 8, 0
+0x6f54, 0x4c70, 0x6665, 0x0074, 
+    IDC_COMBOIDC_INPUTTEXT_JUSTIFY, 0x403, 10, 0
+0x6f54, 0x4370, 0x6e65, 0x6574, 0x0072, 
+    IDC_COMBOIDC_INPUTTEXT_JUSTIFY, 0x403, 9, 0
+0x6f54, 0x5270, 0x6769, 0x7468, "\000" 
+    IDC_COMBOIDC_INPUTTEXT_JUSTIFY, 0x403, 11, 0
+0x694d, 0x6464, 0x656c, 0x654c, 0x7466, "\000" 
+    IDC_COMBOIDC_INPUTTEXT_JUSTIFY, 0x403, 13, 0
+0x694d, 0x6464, 0x656c, 0x6543, 0x746e, 0x7265, "\000" 
+    IDC_COMBOIDC_INPUTTEXT_JUSTIFY, 0x403, 12, 0
+0x694d, 0x6464, 0x656c, 0x6952, 0x6867, 0x0074, 
+    IDC_COMBOIDC_INPUTTEXT_JUSTIFY, 0x403, 11, 0
+0x6f42, 0x7474, 0x6d6f, 0x654c, 0x7466, "\000" 
+    IDC_COMBOIDC_INPUTTEXT_JUSTIFY, 0x403, 13, 0
+0x6f42, 0x7474, 0x6d6f, 0x6543, 0x746e, 0x7265, "\000" 
+    IDC_COMBOIDC_INPUTTEXT_JUSTIFY, 0x403, 12, 0
+0x6f42, 0x7474, 0x6d6f, 0x6952, 0x6867, 0x0074, 
+    0
+END
+
+IDD_FINDREPLACE DLGINIT
+BEGIN
+    IDC_COMBO_COLOR, 0x403, 13, 0
+0xe6cb, 0xe9bf, 0x4220, 0x4279, 0x6f6c, 0x6b63, "\000" 
+    IDC_COMBO_COLOR, 0x403, 9, 0
+0xecba, 0xabc9, 0x5220, 0x6465, "\000" 
+    IDC_COMBO_COLOR, 0x403, 12, 0
+0xc6bb, 0xabc9, 0x5920, 0x6c65, 0x6f6c, 0x0077, 
+    IDC_COMBO_COLOR, 0x403, 11, 0
+0xccc2, 0xabc9, 0x4720, 0x6572, 0x6e65, "\000" 
+    IDC_COMBO_COLOR, 0x403, 10, 0
+0xe0c7, 0xabc9, 0x4320, 0x6179, 0x006e, 
+    IDC_COMBO_COLOR, 0x403, 10, 0
+0xb6c0, 0xabc9, 0x4220, 0x756c, 0x0065, 
+    IDC_COMBO_COLOR, 0x403, 13, 0
+0xf3d1, 0xecba, 0x4d20, 0x6761, 0x6e65, 0x6174, "\000" 
+    IDC_COMBO_COLOR, 0x403, 11, 0
+0xd7b0, 0xabc9, 0x5720, 0x6968, 0x6574, "\000" 
+    IDC_COMBO_COLOR, 0x403, 13, 0
+0xe6cb, 0xe3b2, 0x4220, 0x4c79, 0x7961, 0x7265, "\000" 
+    0
+END
+
+IDD_CONVERTTEXT DLGINIT
+BEGIN
+    IDC_COMBO_ColorIndex, 0x403, 15, 0
+0xe6cb, 0xe9bf, 0x6120, 0x4263, 0x4279, 0x6f6c, 0x6b63, "\000" 
+    IDC_COMBO_ColorIndex, 0x403, 11, 0
+0xecba, 0xabc9, 0x6120, 0x5263, 0x6465, "\000" 
+    IDC_COMBO_ColorIndex, 0x403, 14, 0
+0xc6bb, 0xabc9, 0x6120, 0x5963, 0x6c65, 0x6f6c, 0x0077, 
+    IDC_COMBO_ColorIndex, 0x403, 13, 0
+0xccc2, 0xabc9, 0x6120, 0x4763, 0x6572, 0x6e65, "\000" 
+    IDC_COMBO_ColorIndex, 0x403, 12, 0
+0xe0c7, 0xabc9, 0x6120, 0x4363, 0x6179, 0x006e, 
+    IDC_COMBO_ColorIndex, 0x403, 12, 0
+0xb6c0, 0xabc9, 0x6120, 0x4263, 0x756c, 0x0065, 
+    IDC_COMBO_ColorIndex, 0x403, 15, 0
+0xf3d1, 0xecba, 0x6120, 0x4d63, 0x6761, 0x6e65, 0x6174, "\000" 
+    IDC_COMBO_ColorIndex, 0x403, 13, 0
+0xd7b0, 0xabc9, 0x6120, 0x5763, 0x6968, 0x6574, "\000" 
+    IDC_COMBO_ColorIndex, 0x403, 15, 0
+0xe6cb, 0xe3b2, 0x6120, 0x4263, 0x4c79, 0x7961, 0x7265, "\000" 
+    0
+END
+
+IDD_MODIFYTEXT DLGINIT
+BEGIN
+    IDC_COMBO_JUSTIFY, 0x403, 9, 0
+0xacc4, 0xcfc8, 0xbbb2, 0xe4b1, "\000" 
+    IDC_COMBO_JUSTIFY, 0x403, 5, 0
+0x654c, 0x7466, "\000" 
+    IDC_COMBO_JUSTIFY, 0x403, 7, 0
+0x6543, 0x746e, 0x7265, "\000" 
+    IDC_COMBO_JUSTIFY, 0x403, 6, 0
+0x6952, 0x6867, 0x0074, 
+    IDC_COMBO_JUSTIFY, 0x403, 8, 0
+0x6c41, 0x6769, 0x656e, 0x0064, 
+    IDC_COMBO_JUSTIFY, 0x403, 7, 0
+0x694d, 0x6464, 0x656c, "\000" 
+    IDC_COMBO_JUSTIFY, 0x403, 4, 0
+0x6946, 0x0074, 
+    IDC_COMBO_JUSTIFY, 0x403, 8, 0
+0x6f54, 0x4c70, 0x6665, 0x0074, 
+    IDC_COMBO_JUSTIFY, 0x403, 10, 0
+0x6f54, 0x4370, 0x6e65, 0x6574, 0x0072, 
+    IDC_COMBO_JUSTIFY, 0x403, 9, 0
+0x6f54, 0x5270, 0x6769, 0x7468, "\000" 
+    IDC_COMBO_JUSTIFY, 0x403, 11, 0
+0x694d, 0x6464, 0x656c, 0x654c, 0x7466, "\000" 
+    IDC_COMBO_JUSTIFY, 0x403, 13, 0
+0x694d, 0x6464, 0x656c, 0x6543, 0x746e, 0x7265, "\000" 
+    IDC_COMBO_JUSTIFY, 0x403, 12, 0
+0x694d, 0x6464, 0x656c, 0x6952, 0x6867, 0x0074, 
+    IDC_COMBO_JUSTIFY, 0x403, 11, 0
+0x6f42, 0x7474, 0x6d6f, 0x654c, 0x7466, "\000" 
+    IDC_COMBO_JUSTIFY, 0x403, 13, 0
+0x6f42, 0x7474, 0x6d6f, 0x6543, 0x746e, 0x7265, "\000" 
+    IDC_COMBO_JUSTIFY, 0x403, 12, 0
+0x6f42, 0x7474, 0x6d6f, 0x6952, 0x6867, 0x0074, 
+    0
+END
+
+IDD_CHANGEFILENAME DLGINIT
+BEGIN
+    IDC_COMBO_CHANGEFILENAME_EXT, 0x403, 6, 0
+0x2e2a, 0x7764, 0x0067, 
+    IDC_COMBO_CHANGEFILENAME_EXT, 0x403, 6, 0
+0x2e2a, 0x6c78, 0x0073, 
+    IDC_COMBO_CHANGEFILENAME_EXT, 0x403, 4, 0
+0x2e2a, 0x002a, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_PROJNAME            "zhftool"
+    IDS_BFF_TITLE           "选择目录"
+END
+
+#endif    // 中文（中华人民共和国） resources
+/////////////////////////////////////////////////////////////////////////////
+
+

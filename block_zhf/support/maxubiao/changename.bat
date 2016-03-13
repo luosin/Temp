@@ -1,0 +1,22 @@
+REN samp_GUIDAO_GD_C_ALL.dwg samp_guidao_gd_c_all.dwg
+REN samp_GUIDAO_GD_C_LEFT.dwg samp_guidao_gd_c_left.dwg
+REN samp_GUIDAO_GD_C_RIGHT.dwg samp_guidao_gd_c_right.dwg
+REN samp_GUIDAO_GD_S_ALL.dwg samp_guidao_gd_s_all.dwg
+REN samp_GUIDAO_GD_S_LEFT.dwg samp_guidao_gd_s_left.dwg
+REN samp_GUIDAO_GD_S_RIGHT.dwg samp_guidao_gd_s_right.dwg
+REN samp_GUIDAO_GD_X_ALL.dwg samp_guidao_gd_x_all.dwg
+REN samp_GUIDAO_GD_X_LEFT.dwg samp_guidao_gd_x_left.dwg
+REN samp_GUIDAO_GD_X_RIGHT.dwg samp_guidao_gd_x_right.dwg
+REN samp_GUIDAO_JZ_S_F.dwg samp_guidao_jz_s_f.dwg
+REN samp_GUIDAO_JZ_S_Z.dwg samp_guidao_jz_s_z.dwg
+REN samp_GUIDAO_JZ_X_F.dwg samp_guidao_jz_x_f.dwg
+REN samp_GUIDAO_JZ_X_Z.dwg samp_guidao_jz_x_z.dwg
+REN samp_GUIDAO_LQ_S_0.dwg samp_guidao_lq_s_0.dwg
+REN samp_GUIDAO_LQ_X_0.dwg samp_guidao_lq_x_0.dwg
+REN samp_GUIDAO_TG_S_WFG.dwg samp_guidao_tg_s_wfg.dwg
+REN samp_GUIDAO_TG_S_FG.dwg samp_guidao_tg_s_fg.dwg
+REN samp_GUIDAO_TG_X_WFG.dwg samp_guidao_tg_x_wfg.dwg
+REN samp_GUIDAO_TG_X_FG.dwg samp_guidao_tg_x_fg.dwg
+REN samp_GUIDAO_ZN_0_0.dwg samp_guidao_zn_0_0.dwg
+
+pause

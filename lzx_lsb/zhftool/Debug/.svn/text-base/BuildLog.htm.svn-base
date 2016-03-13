@@ -1,0 +1,215 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=gb2312">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=宋体 size=+3>
+生成日志
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- 已启动生成：项目：zhftool，配置：Debug|Win32 -------
+</h3>
+</pre></table><table width=100%% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+环境空间
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>    ALLUSERSPROFILE=C:\Documents and Settings\All Users
+    APPDATA=C:\Documents and Settings\wangli\Application Data
+    APR_ICONV_PATH=C:\Program Files\Subversion\iconv
+    CLIENTNAME=Console
+    CommonProgramFiles=C:\Program Files\Common Files
+    COMPUTERNAME=ZHF-VM-VS2002
+    ComSpec=C:\WINDOWS\system32\cmd.exe
+    FP_NO_HOST_CHECK=NO
+    frameworkdir=c:\windows\microsoft.net\framework\
+    frameworksdkdir=d:\program files\microsoft visual studio .net\frameworksdk\
+    HOMEDRIVE=C:
+    HOMEPATH=\Documents and Settings\wangli
+    INCLUDE=D:\Program Files\Microsoft Visual Studio .NET\Vc7\include;D:\Program Files\Microsoft Visual Studio .NET\Vc7\atlmfc\include;D:\Program Files\Microsoft Visual Studio .NET\Vc7\PlatformSDK\include\prerelease;D:\Program Files\Microsoft Visual Studio .NET\Vc7\PlatformSDK\include;D:\Program Files\Microsoft Visual Studio .NET\FrameworkSDK\include;D:\ObjectARX2004\inc;
+    LIB=D:\Program Files\Microsoft Visual Studio .NET\Vc7\lib;D:\Program Files\Microsoft Visual Studio .NET\Vc7\atlmfc\lib;D:\Program Files\Microsoft Visual Studio .NET\Vc7\PlatformSDK\lib\prerelease;D:\Program Files\Microsoft Visual Studio .NET\Vc7\PlatformSDK\lib;D:\Program Files\Microsoft Visual Studio .NET\FrameworkSDK\lib;D:\ObjectARX2004\lib;
+    LIBPATH=
+    LOGONSERVER=\\ZHF-VM-VS2002
+    MSDevDir=D:\Program Files\VC++6.0\MSDev98
+    MsVCDir=d:\program files\microsoft visual studio .net\
+    NUMBER_OF_PROCESSORS=2
+    OS=Windows_NT
+    Path=D:\Program Files\Microsoft Visual Studio .NET\Vc7\bin;D:\Program Files\Microsoft Visual Studio .NET\Common7\Tools\bin\prerelease;D:\Program Files\Microsoft Visual Studio .NET\Common7\Tools\bin;D:\Program Files\Microsoft Visual Studio .NET\Common7\tools;D:\Program Files\Microsoft Visual Studio .NET\Common7\ide;C:\Program Files\HTML Help Workshop\;D:\Program Files\Microsoft Visual Studio .NET\FrameworkSDK\bin;C:\WINDOWS\Microsoft.NET\Framework\v1.0.3705;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;
+    PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH
+    PROCESSOR_ARCHITECTURE=x86
+    PROCESSOR_IDENTIFIER=x86 Family 6 Model 60 Stepping 3, GenuineIntel
+    PROCESSOR_LEVEL=6
+    PROCESSOR_REVISION=3c03
+    ProgramFiles=C:\Program Files
+    SESSIONNAME=Console
+    SystemDrive=C:
+    SystemRoot=C:\WINDOWS
+    TEMP=C:\DOCUME~1\wangli\LOCALS~1\Temp
+    TMP=C:\DOCUME~1\wangli\LOCALS~1\Temp
+    USERDOMAIN=ZHF-VM-VS2002
+    USERNAME=wangli
+    USERPROFILE=C:\Documents and Settings\wangli
+    VCInstallDir=d:\program files\microsoft visual studio .net\vc7\
+    VSCOMNTOOLS="D:\Program Files\Microsoft Visual Studio .NET\Common7\Tools\"
+    VSInstallDir=d:\program files\microsoft visual studio .net\
+    windir=C:\WINDOWS
+    _ACP_ATLPROV=D:\Program Files\Microsoft Visual Studio .NET\Vc7\bin\ATLPROV.DLL
+    _ACP_INCLUDE="..\ugrid\Ultimate Grid\Include";D:\Program Files\Microsoft Visual Studio .NET\Vc7\include;D:\Program Files\Microsoft Visual Studio .NET\Vc7\atlmfc\include;D:\Program Files\Microsoft Visual Studio .NET\Vc7\PlatformSDK\include\prerelease;D:\Program Files\Microsoft Visual Studio .NET\Vc7\PlatformSDK\include;D:\Program Files\Microsoft Visual Studio .NET\FrameworkSDK\include;D:\ObjectARX2004\inc;
+    _ACP_LIB=D:\Program Files\Microsoft Visual Studio .NET\Vc7\lib;D:\Program Files\Microsoft Visual Studio .NET\Vc7\atlmfc\lib;D:\Program Files\Microsoft Visual Studio .NET\Vc7\PlatformSDK\lib\prerelease;D:\Program Files\Microsoft Visual Studio .NET\Vc7\PlatformSDK\lib;D:\Program Files\Microsoft Visual Studio .NET\FrameworkSDK\lib;D:\ObjectARX2004\lib;;"..\ugrid\Ultimate Grid\Include";D:\Program Files\Microsoft Visual Studio .NET\Vc7\include;D:\Program Files\Microsoft Visual Studio .NET\Vc7\atlmfc\include;D:\Program Files\Microsoft Visual Studio .NET\Vc7\PlatformSDK\include\prerelease;D:\Program Files\Microsoft Visual Studio .NET\Vc7\PlatformSDK\include;D:\Program Files\Microsoft Visual Studio .NET\FrameworkSDK\include;D:\ObjectARX2004\inc;
+    _ACP_PATH=D:\Program Files\Microsoft Visual Studio .NET\Vc7\bin;D:\Program Files\Microsoft Visual Studio .NET\Common7\Tools\bin\prerelease;D:\Program Files\Microsoft Visual Studio .NET\Common7\Tools\bin;D:\Program Files\Microsoft Visual Studio .NET\Common7\tools;D:\Program Files\Microsoft Visual Studio .NET\Common7\ide;C:\Program Files\HTML Help Workshop\;D:\Program Files\Microsoft Visual Studio .NET\FrameworkSDK\bin;C:\WINDOWS\Microsoft.NET\Framework\v1.0.3705;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;
+</pre></table><table width=100%% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+命令行
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>正在创建临时文件“f:\lzx_lsb\zhftool\Debug\RSP000010.rsp”，其内容为
+[
+/Od /D "WIN32" /D "_WINDOWS" /D "ZHFTOOL_MODULE" /D "_AFXEXT" /D "_ACRXAPP" /D "_MBCS" /D "_AFXDLL" /D "_WINDLL" /Gm /EHsc /RTC1 /MD /GS /GR /YX"stdafx.h" /Fp"Debug/zhftool.pch" /Fo"Debug/" /Fd"Debug/vc70.pdb" /W1 /c /Wp64 /ZI /TP
+zhftool.cpp
+rxdebug.cpp
+acrxEntryPoint.cpp
+ZhfPaletteSet.cpp
+ZhfPalette.cpp
+ZhfBlkRefJig.cpp
+XlsToDwgDlg.cpp
+UserTools.cpp
+TextDlg.cpp
+StdAfx.cpp
+ShowBlkAttDlg.cpp
+SetPlWidthDlg.cpp
+SetBlkAttDlg.cpp
+STextSet.cpp
+SBDestination.cpp
+PolylineUtil.cpp
+PmtSetRbDlg.cpp
+ModifyTextStyleDlg.cpp
+MathUtil.cpp
+InputTextDlg.cpp
+GsPreviewCtrl.cpp
+GetHeightWidthDlg.cpp
+GetDianlanSumDlg.cpp
+GePointUtil.cpp
+FindReplaceDlg.cpp
+EntityUtil.cpp
+DwgDatabaseUtil.cpp
+DocData.cpp
+ConvertUtil.cpp
+ConvertTextDlg.cpp
+ChangeFileNameDlg.cpp
+BrowseForFolder.cpp
+BlockUtil.cpp
+BatchFindReplaceDlg.cpp
+BatchDTextDlg.cpp
+]
+正在创建命令行“cl.exe @f:\lzx_lsb\zhftool\Debug\RSP000010.rsp /nologo”
+正在创建命令行“rc.exe /d "_DEBUG" /d "_AFXDLL" /l 0x409 /I "Debug" /fo"Debug/zhftool.res" zhftool.rc”
+正在创建临时文件“f:\lzx_lsb\zhftool\Debug\RSP000011.rsp”，其内容为
+[
+/OUT:"D:\Program Files\AutoCAD 2004\zhftool.arx" /INCREMENTAL /NOLOGO /DLL /DEF:"zhftool.def" /DEBUG /PDB:"Debug/zhftool.pdb" /SUBSYSTEM:WINDOWS /IMPLIB:"Debug/zhftool.lib" /MACHINE:IX86 \lzx_lsb\ugrid\Debug\ugrid.lib \lzx_lsb\zncad\Debug\zncad.lib \lzx_lsb\blkdll\Debug\blkdll.lib \lzx_lsb\blkuserdll\Debug\blkuserdll.lib \lzx_lsb\mygreta\Debug\mygreta.lib
+Debug\BatchDTextDlg.obj
+Debug\BatchFindReplaceDlg.obj
+Debug\BlockUtil.obj
+Debug\BrowseForFolder.obj
+Debug\ChangeFileNameDlg.obj
+Debug\ConvertTextDlg.obj
+Debug\ConvertUtil.obj
+Debug\DocData.obj
+Debug\DwgDatabaseUtil.obj
+Debug\EntityUtil.obj
+Debug\FindReplaceDlg.obj
+Debug\GePointUtil.obj
+Debug\GetDianlanSumDlg.obj
+Debug\GetHeightWidthDlg.obj
+Debug\GsPreviewCtrl.obj
+Debug\InputTextDlg.obj
+Debug\MathUtil.obj
+Debug\ModifyTextStyleDlg.obj
+Debug\PmtSetRbDlg.obj
+Debug\PolylineUtil.obj
+Debug\SBDestination.obj
+Debug\STextSet.obj
+Debug\SetBlkAttDlg.obj
+Debug\SetPlWidthDlg.obj
+Debug\ShowBlkAttDlg.obj
+Debug\StdAfx.obj
+Debug\TextDlg.obj
+Debug\UserTools.obj
+Debug\XlsToDwgDlg.obj
+Debug\ZhfBlkRefJig.obj
+Debug\ZhfPalette.obj
+Debug\ZhfPaletteSet.obj
+Debug\acrxEntryPoint.obj
+Debug\rxdebug.obj
+Debug\zhftool.obj
+Debug\zhftool.res
+]
+正在创建命令行“link.exe @f:\lzx_lsb\zhftool\Debug\RSP000011.rsp”
+</pre></table><table width=100%% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+输出窗口
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>正在编译...
+zhftool.cpp
+d:\ObjectARX2004\inc\dbid.h(197) : warning C4311: “类型转换” : 从“const AcDbStub *”到“unsigned long”的指针截断
+d:\ObjectARX2004\inc\dbid.h(221) : warning C4311: “类型转换” : 从“const AcDbStub *”到“unsigned long”的指针截断
+d:\ObjectARX2004\inc\dbid.h(225) : warning C4312: “类型转换” : 从“const unsigned long”转换到更大的“AcDbStub *”
+d:\ObjectARX2004\inc\dbid.h(251) : warning C4311: “类型转换” : 从“const AcDbStub *”到“unsigned long”的指针截断
+d:\ObjectARX2004\inc\dbid.h(271) : warning C4312: “类型转换” : 从“const unsigned long”转换到更大的“AcDbStub *”
+d:\ObjectARX2004\inc\dbid.h(297) : warning C4311: “类型转换” : 从“const AcDbStub *”到“unsigned long”的指针截断
+d:\ObjectARX2004\inc\dbid.h(317) : warning C4312: “类型转换” : 从“const unsigned long”转换到更大的“AcDbStub *”
+d:\ObjectARX2004\inc\dbid.h(343) : warning C4311: “类型转换” : 从“const AcDbStub *”到“unsigned long”的指针截断
+d:\ObjectARX2004\inc\dbid.h(363) : warning C4312: “类型转换” : 从“const unsigned long”转换到更大的“AcDbStub *”
+d:\ObjectARX2004\inc\dbid.h(388) : warning C4311: “类型转换” : 从“const AcDbStub *”到“unsigned long”的指针截断
+d:\ObjectARX2004\inc\dbid.h(408) : warning C4312: “类型转换” : 从“const unsigned long”转换到更大的“AcDbStub *”
+d:\ObjectARX2004\inc\dbidapps.h(159) : warning C4311: “类型转换” : 从“const AcDbStub *”到“unsigned long”的指针截断
+d:\ObjectARX2004\inc\dbidapps.h(163) : warning C4311: “类型转换” : 从“const AcDbStub *”到“unsigned long”的指针截断
+d:\ObjectARX2004\inc\dbidapps.h(167) : warning C4311: “类型转换” : 从“const AcDbStub *”到“unsigned long”的指针截断
+d:\ObjectARX2004\inc\dbidapps.h(171) : warning C4311: “类型转换” : 从“const AcDbStub *”到“unsigned long”的指针截断
+d:\ObjectARX2004\inc\dbidapps.h(175) : warning C4311: “类型转换” : 从“const AcDbStub *”到“unsigned long”的指针截断
+d:\ObjectARX2004\inc\dbidapps.h(179) : warning C4311: “类型转换” : 从“const AcDbStub *”到“unsigned long”的指针截断
+rxdebug.cpp
+acrxEntryPoint.cpp
+ZhfPaletteSet.cpp
+ZhfPalette.cpp
+ZhfBlkRefJig.cpp
+XlsToDwgDlg.cpp
+UserTools.cpp
+TextDlg.cpp
+StdAfx.cpp
+ShowBlkAttDlg.cpp
+SetPlWidthDlg.cpp
+SetBlkAttDlg.cpp
+STextSet.cpp
+SBDestination.cpp
+PolylineUtil.cpp
+PmtSetRbDlg.cpp
+ModifyTextStyleDlg.cpp
+MathUtil.cpp
+InputTextDlg.cpp
+f:\lzx_lsb\zhftool\InputTextDlg.cpp(21) : warning C4129: “(” : 不可识别的字符转义序列
+f:\lzx_lsb\zhftool\InputTextDlg.cpp(21) : warning C4129: “)” : 不可识别的字符转义序列
+f:\lzx_lsb\zhftool\InputTextDlg.cpp(79) : warning C4129: “(” : 不可识别的字符转义序列
+f:\lzx_lsb\zhftool\InputTextDlg.cpp(79) : warning C4129: “)” : 不可识别的字符转义序列
+f:\lzx_lsb\zhftool\InputTextDlg.cpp(155) : warning C4129: “(” : 不可识别的字符转义序列
+f:\lzx_lsb\zhftool\InputTextDlg.cpp(155) : warning C4129: “)” : 不可识别的字符转义序列
+GsPreviewCtrl.cpp
+GetHeightWidthDlg.cpp
+GetDianlanSumDlg.cpp
+GePointUtil.cpp
+FindReplaceDlg.cpp
+EntityUtil.cpp
+DwgDatabaseUtil.cpp
+DocData.cpp
+ConvertUtil.cpp
+ConvertTextDlg.cpp
+ChangeFileNameDlg.cpp
+BrowseForFolder.cpp
+BlockUtil.cpp
+BatchFindReplaceDlg.cpp
+BatchDTextDlg.cpp
+正在编译资源...
+正在链接...
+LINK : LNK6004: 没有找到 D:\Program Files\AutoCAD 2004\zhftool.arx 或上一个增量链接没有生成它；正在执行完全链接
+  正在创建库 Debug/zhftool.lib 和对象 Debug/zhftool.exp
+rxapi.lib(libinit.obj) : warning LNK4099: 未发现 PDB“msvc.pdb”有“D:\ObjectARX2004\lib\rxapi.lib”或者在“f:\lzx_lsb\zhftool\Debug\msvc.pdb”中；正在链接对象，如同没有调试信息一样
+rxapi.lib(nullobid.obj) : warning LNK4099: 未发现 PDB“msvc.pdb”有“D:\ObjectARX2004\lib\rxapi.lib”或者在“f:\lzx_lsb\zhftool\Debug\msvc.pdb”中；正在链接对象，如同没有调试信息一样
+acedapi.lib(acedstub.obj) : warning LNK4099: 未发现 PDB“corehdr.pdb”有“D:\ObjectARX2004\lib\acedapi.lib”或者在“f:\lzx_lsb\zhftool\Debug\corehdr.pdb”中；正在链接对象，如同没有调试信息一样
+acedapi.lib(acedcls.obj) : warning LNK4099: 未发现 PDB“corehdr.pdb”有“D:\ObjectARX2004\lib\acedapi.lib”或者在“f:\lzx_lsb\zhftool\Debug\corehdr.pdb”中；正在链接对象，如同没有调试信息一样
+</pre></table><table width=100%% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+结果
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+生成日志保存在“file://f:\lzx_lsb\zhftool\Debug\BuildLog.htm”中
+zhftool - 0 错误，27 警告</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=宋体 size=+2>
+</font></table></body></html>

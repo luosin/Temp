@@ -1,0 +1,204 @@
+//
+//      AutoCAD 菜单文件 - C:\block_zhf\menu\xhcad.mnc
+//
+
+***MENUGROUP=XHCADMENU
+
+***POP1
+**XHCAD
+ID_XHCAD       [信号工具箱]
+ID_XHCAD_TEXT  [->文本]
+ID_XHCAD_TEXT_INPUT   [输入]^C^Cutext 
+ID_XHCAD_TEXT_ED   [编辑]^C^Cad 
+ID_XHCAD_TEXT_MOTEXT   [尺寸样式]^C^Cmotext 
+[--]
+ID_XHCAD_TEXT_FR   [查找替换]^C^Cfr 
+[--]
+ID_XHCAD_TEXT_TT   [转换]^C^Ctt 
+ID_XHCAD_TEXT_ALIGN   [对齐]^C^Caligntext
+[--]
+ID_XHCAD_TEXT_BTEXT   [批量输入]^C^Cbtext 
+ID_XHCAD_TEXT_BEDIT   [批量编辑]^C^Cbedit 
+[--]
+ID_XHCAD_TEXT_DELNULL   [<-删除空值]^C^Cdelnulltext 
+               [--]
+ID_XHCAD_BLOCK [->图块]
+ID_XHCAD_BLOCK_REPLACEBLOCK   [替换]^C^Creplaceblock 
+ID_XHCAD_BLOCK_MOBLKATT   [修改]^C^Cmoblkatt 
+ID_XHCAD_BLOCK_SHOWHIDEATT   [<-显示属性]^C^CShowBlkAtt
+[--]
+ID_XHCAD_LINE [->线段]
+ID_XHCAD_LINE_REVERSEPLINE   [顺正]^C^Creverseline 
+ID_XHCAD_LINE_TOPOLYLINE   [转多段线]^C^Ctopline 
+ID_XHCAD_LINE_JOINLINE   [合并多段线]^C^Cjoinline 
+ID_XHCAD_LINE_SETWIDTH   [修改多段线宽]^C^Csetplwidth
+ID_XHCAD_LINE_ADDVERT   [<-增加节点]^C^Caddvert
+               [--]
+ID_XHCAD_TABLE [->表格]
+ID_XHCAD_TABLE_DWGTOXLS   [CAD到EXCEL]^C^Cdwgtoxls 
+ID_XHCAD_TABLE_XLSTODWG   [EXCEL到CAD]^C^Cxlstodwg 
+ID_XHCAD_TABLE_GETHW   [<-高宽换算]^C^Cgethw 
+               [--]
+ID_XHCAD_XDATA [->扩展]
+ID_XHCAD_XDATA_SET   [设置]^C^Csetxdata 
+[--]
+ID_XHCAD_XDATA_DEL   [删除]^C^Cdelxdata 
+ID_XHCAD_XDATA_DELONE   [删除指定]^C^Cdeloneapp 
+[--]
+ID_XHCAD_XDATA_SHOW   [显示]^C^Cshowxdata 
+ID_XHCAD_XDATA_HIDE   [<-隐藏]^C^Chidexdata 
+               [--]
+ID_XHCAD_SUM [->统计]
+ID_XHCAD_SUM_SUMLINE [线段长度]^C^Csumlinelen 
+ID_XHCAD_SUM_SUMDIANLAN [<-电缆箱盒]^C^Csumdianlan 
+               [--]
+ID_XHCAD_OTHER [->其他]
+ID_XHCAD_OTHER_MOFILENAME [文件更名]^C^Cmofilename 
+ID_XHCAD_OTHER_REFRESH [刷新图纸]^C^Crefreshdwg 
+ID_XHCAD_OTHER_RPTK [批量改图库]^C^Crptk
+ID_XHCAD_OTHER_EXPLODESPE [炸开特殊块]^C^Cexplodespe 
+
+
+***POP2
+**MAXUBIAO
+ID_MAXUBIAO    [码序表]
+ID_MAXUBIAO_CONGUIDAO [关联前后轨道]^C^Ccon_guidao 
+ID_MAXUBIAO_SETSTARTFREQ [设置起始频率]^C^Cset_startfreq 
+ID_MAXUBIAO_SETFREQ [设置轨道频率]^C^Cset_freq 
+               [--]
+ID_MAXUBIAO_DELGUIDAOCON [删除轨道关联]^C^Cdelguidaocon 
+ID_MAXUBIAO_CHECKCON [显示关联径路]^C^Ccheckcon 
+ID_MAXUBIAO_UNCHECKCON [取消显示径路]^C^Cuncheckcon 
+               [--]
+ID_MAXUBIAO_INPUT [读取平面图]^C^Cmxbinput 
+ID_MAXUBIAO_DO [生成码序表]^C^Cmxbdo 
+ID_MAXUBIAO_DOZJZ [生成中继站码序表]^C^Cmxbdozjz 
+               [--]
+ID_MAXUBIAO_LKQCDATA [生成列控驱采表]^C^Cmxblkqc 
+
+***POP3
+**ZNSYS
+ID_ZNSYS       [站内系统]
+ID_ZNSYS_READBZT [读入设备布置图]^C^Cznreadbzt 
+ID_ZNSYS_READLSQC [读入联锁驱采数据]^C^Cznreadlsqc 
+ID_ZNSYS_READLKQC [读入列控驱采数据]^C^Cznreadlkqc 
+               [--]
+ID_ZNSYS_COMPUTEMID [中间数据计算]^C^Czncomputemid 
+               [--]
+ID_ZNSYS_FXPPX [生成分线盘配线图]^C^Cznoutfxppx 
+ID_ZNSYS_DLT_YTHDL [生成移频轨道电路]^C^Cznoutythdl 
+ID_ZNSYS_DLT_25HZDL [生成25Hz轨道电路]^C^Cznout25hzdl 
+ID_ZNSYS_DLT_XHJDL [生成信号机相关电路]^C^Cznoutxhjdl 
+ID_ZNSYS_DLT_DCDL [生成道岔相关电路]^C^Cznoutdcdl 
+               [--]
+ID_ZNSYS_DLT_FORPX [生成配线用电路]^C^Cznoutpxdl 
+               [--]
+ID_ZNSYS_READFXP [读入分线盘数据(可选)]^C^Czn_inputfxp 
+ID_ZNSYS_READCABLENET [读取电缆网络图]^C^Cznreadcablenet 
+ID_ZNSYS_DLPX  [生成电缆配线]^C^Cznoutdlpx 
+               [--]
+
+***POP4
+**LKDATATABLE
+ID_LKDATATABLE [列控数据表]
+ID_LKDATATABLE_INPUT [读入基础数据]^C^Clkinput 
+ID_LKDATATABLE_COMPUTEXHDATA [计算信号数据]^C^Clkdoxhdata 
+ID_LKDATATABLE_COMPUTEYDQDATA [计算应答器数据]^C^Clkdoydqdata 
+               [--]
+ID_LKDATATABLE_EXPORTXHDATA [生成信号数据表]^C^Clkoutxhdata 
+ID_LKDATATABLE_EXPORTYDQ [生成应答器数据表]^C^Clkoutydqdata 
+               [--]
+ID_LKDATATABLE_inlsb [读入联锁表]^C^Clkinlsb 
+ID_LKDATATABLE_EXPORTJLINFO [生成进路信息表]^C^Clkoutjldata 
+               [--]
+ID_LKDATATABLE_EXPORTPDT [生成全线平面图]^C^Cdrawpdt 
+ID_LKDATATABLE_EXPORTSYT [生成平面示意图]^C^Cdrawsyt 
+ID_LKDATATABLE_OUTPDTFROMLKDATA [导入列控数据生成平面图]^C^Clkoutpmt 
+               [--]
+ID_LKDATATABLE_EXPORTXHJTABLE [导出信号机位置表]^C^Clkoutxhjtb 
+               [--]
+
+***POP5
+**BTTOOLS
+ID_BTTOOLS     [巴铁工具]
+ID_BTTOOLS_DLPX_PREDOJLT [预处理电缆径路图]^C^Cbtpredojlt 
+ID_BTTOOLS_DLPX_READCABLENET [读取电缆径路图]^C^Cbtreadcablenet 
+ID_BTTOOLS_DLPX_DO [生成电缆配线]^C^Cbtdlpx 
+               [--]
+ID_BTTOOLS_MXB_INPUT [导入轨道区段表]^C^Cbtmxbinput 
+ID_BTTOOLS_MXB_DO [生成巴铁码序表]^C^Cbtmxb 
+               [--]
+
+***POP6
+**DMH
+ID_DMH         [站内电码化]
+ID_DMH_IMPORT_EXCEL [导入输入表]^C^Cimportdmh 
+ID_DMH_DRAW_jg [生成柜子图]^C^Cdmhjg 
+ID_DMH_READ_jg [读入柜子图]^C^Cdmhreadjg 
+c_DRAW_CIRCUIT [生成电路图]^C^Cdmhcircuit 
+ID_DMH_DRAW_PX [生成配线图]^C^Cdmhpx 
+[--]
+ID_DMH_SAVECIRCUIT [设置为电路图]^C^Csavecircuit 
+[--]
+ID_DMH_SAMEID_CHECK [相同ID]^C^Cchecksameid 
+ID_DMH_SAMEID_UNCHECK [隐藏提示]^C^Cunchecksameid 
+[--]
+ID_DMH_OPTIONS [参数设置]^C^Cdmhoptions 
+               
+
+***POP7
+**PMT
+ID_PMT	[车站室外]
+ID_PMT_TUKU [图库面板] ^C^Ctuku 
+[--]
+ID_PMT_RBSET [替换设置] ^C^Crbset 
+ID_PMT_RB [替换] ^C^Crb
+[--]
+ID_PMT_ZR [旋转图块] ^C^Czr 
+ID_PMT_ZM [镜像图块] ^C^Czm
+[--]
+ID_PMT_CHECKSTANDARD [平面图合格性检查]^C^Ccheckgdline
+[--]
+ID_PMT_ZH [切割区段①] ^C^Cpmtzh 
+ID_PMT_GDNAME [计算轨道名称②] ^C^Cpmtgdname 
+ID_PMT_CPLSB [计算联锁表信息③] ^C^Cpmtcomputelsb
+ID_PMT_CADLSB [生成联锁表图纸④] ^C^Cxlstolsb
+ID_PMT_ADDJYJ [增加跳线绝缘⑤] ^C^Cpmtaddjyj 
+ID_PMT_TESTJX [测试极性交叉⑥] ^C^Cpmttestjx
+ID_PMT_TOSXT [生成双线图⑦] ^C^Cpmttosxt
+
+
+
+***POP8
+**DT
+ID_DT	[地铁]
+ID_DT_TUKU [图库面板] ^C^Cdttk 
+ID_DT_LOC [公里标] ^C^Cdisttoxhl
+
+***TOOLBARS
+**ZHFTOOLS
+ID_ZHFTOOLS_0  [_Toolbar("ZHFTOOLS", _Floating, _Show, 1533, 326, 1)]
+ID_UserButton_0 [_Button("XDLIST", "RCDA.bmp", "RCDATA_16_BLANK")]^C^CXDLIST 
+ID_UserButton_1 [_Button("SETXDATA", "RCDA2382.bmp", "RCDATA_16_BLANK")]^C^CSETXDATA 
+
+
+***HELPSTRINGS
+ID_MAXUBIAO_SETGUDAOTYPE [设置股道类型,1(下行正线)/2(上行正线)/3(侧线):set_gudaotype ]
+ID_MAXUBIAO_MAXUBIAO [生成码序表:maxubiao ]
+ID_MAXUBIAO_SETUPDOWN [设置轨道和信号机在1/(下行)2/(上行),离去轨道不指定:set_updown ]
+ID_MAXUBIAO_CONGUIDAO [ 关联前后轨道,优先关联在直向上的轨道:  con_guidao]
+ID_MAXUBIAO_SETXHJF [设置反向信号机:set_xhjf]
+ID_MAXUBIAO_CONXHJ [建立信号机和其防护轨道的关联,出站信号机关联到临近的股道上:con_xhj ]
+ID_MAXUBIAO_READDWG [读取平面图:readdwg ]
+ID_USERBUTTON_0 [用户定义的按钮]
+ID_POINTFILX_0 [指定 .X 点过滤器:  .X]
+ID_USERBUTTON_1 [用户定义的按钮]
+ID_MAXUBIAO_SETXHJTYPE [设置信号机类型,0/(默认通过)/1(进站)/2(出站):set_xhjtype]
+ID_MAXUBIAO_SETSTARTEND [设置起始轨道和结束轨道,1(起始轨道)/2(结束轨道):set_startend]
+ID_MAXUBIAO_SETTOPBOTTOM [设置轨道在上/下部分,1(下行线及以上的轨道)/2(上行线及以下的轨道):set_topbottom ]
+ID_MAXUBIAO_MODIFYXDATA [修改轨道或者信号机的属性:modifyxdata ]
+
+//
+//      AutoCAD 菜单文件结尾 - C:\block_zhf\menu\xhcad.mnc
+//
+

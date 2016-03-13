@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding = "gb2312"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.00"
+	Name="ugrid"
+	ProjectGUID="{D73ADC9B-2F1F-4E32-952A-02D31068F434}"
+	Keyword="MFCDLLProj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Debug"
+			IntermediateDirectory="Debug"
+			ConfigurationType="2"
+			UseOfMFC="2"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="0"
+				AdditionalIncludeDirectories="&quot;Ultimate Grid\Include&quot;;&quot;Ultimate Grid\CellTypes&quot;;&quot;Ultimate Grid\EditControls&quot;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_USRDLL;_BUILD_UG_INTO_EXTDLL"
+				MinimalRebuild="TRUE"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="2"
+				TreatWChar_tAsBuiltInType="TRUE"
+				UsePrecompiledHeader="3"
+				WarningLevel="3"
+				Detect64BitPortabilityProblems="TRUE"
+				DebugInformationFormat="4"
+				DisableSpecificWarnings="4819"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="D:\Program Files\AutoCAD 2004\$(ProjectName).dll"
+				LinkIncremental="2"
+				ModuleDefinitionFile=".\ugrid.def"
+				GenerateDebugInformation="TRUE"
+				SubSystem="2"
+				ImportLibrary="$(OutDir)/ugrid.lib"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG"
+				MkTypLibCompatible="FALSE"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="$(IntDir)"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Release"
+			IntermediateDirectory="Release"
+			ConfigurationType="2"
+			UseOfMFC="2"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				OmitFramePointers="TRUE"
+				AdditionalIncludeDirectories="&quot;Ultimate Grid\Include&quot;;&quot;Ultimate Grid\CellTypes&quot;;&quot;Ultimate Grid\EditControls&quot;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_USRDLL;_BUILD_UG_INTO_EXTDLL"
+				StringPooling="TRUE"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="TRUE"
+				TreatWChar_tAsBuiltInType="TRUE"
+				UsePrecompiledHeader="3"
+				WarningLevel="3"
+				Detect64BitPortabilityProblems="TRUE"
+				DebugInformationFormat="3"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="D:\Program Files\AutoCAD 2004/ugrid.dll"
+				LinkIncremental="1"
+				ModuleDefinitionFile=".\ugrid.def"
+				GenerateDebugInformation="TRUE"
+				SubSystem="2"
+				OptimizeReferences="2"
+				EnableCOMDATFolding="2"
+				ImportLibrary="$(OutDir)/ugrid.lib"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG"
+				MkTypLibCompatible="FALSE"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="$(IntDir)"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="源文件"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm">
+			<File
+				RelativePath="stdafx.cpp">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="ugrid.cpp">
+			</File>
+			<File
+				RelativePath="ugrid.def">
+			</File>
+		</Filter>
+		<Filter
+			Name="头文件"
+			Filter="h;hpp;hxx;hm;inl;inc">
+			<File
+				RelativePath="Resource.h">
+			</File>
+			<File
+				RelativePath="stdafx.h">
+			</File>
+			<File
+				RelativePath="ugrid.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="资源文件"
+			Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe">
+			<File
+				RelativePath="ugrid.rc">
+			</File>
+			<File
+				RelativePath="res\ugrid.rc2">
+			</File>
+		</Filter>
+		<Filter
+			Name="Ultimate Grid"
+			Filter="">
+			<Filter
+				Name="Celltypes"
+				Filter="">
+				<File
+					RelativePath="Ultimate Grid\CellTypes\UGCTAutoSize.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\CellTypes\UGCTDropGrid.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\CellTypes\UGCTExpand.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\CellTypes\UGCTLabeled.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\CellTypes\UGCTMail.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\CellTypes\UGCTMailSort.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\CellTypes\UGCTMarquee.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\CellTypes\UGCTNote.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\CellTypes\UGCTOutlookHeader.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\CellTypes\UGCTRado.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\CellTypes\UGCTSpin.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\CellTypes\UGCTafnt.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\CellTypes\UGCTbutn.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\CellTypes\UGCTdtp.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\CellTypes\UGCTmfnt.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\CellTypes\UGCTpie.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\CellTypes\UGCTpro1.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\CellTypes\UGCTprog.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\CellTypes\UGCTsarw.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\CellTypes\UGCTsldr.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\CellTypes\ugctelps.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\CellTypes\ugctnotewnd.cpp">
+				</File>
+			</Filter>
+			<Filter
+				Name="Edit Controls"
+				Filter="">
+				<File
+					RelativePath="Ultimate Grid\EditControls\UTEdit.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\EditControls\UTMaskedEdit.cpp">
+				</File>
+			</Filter>
+			<Filter
+				Name="Include"
+				Filter="">
+				<File
+					RelativePath="Ultimate Grid\Include\UG64Bit.h">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Include\UGCBType.h">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Include\UGCTarrw.h">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Include\UGCell.h">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Include\UGCnrBtn.h">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Include\UGCtrl.h">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Include\UGDLType.h">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Include\UGDrgDrp.h">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Include\UGDrwHnt.h">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Include\UGDtaSrc.h">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Include\UGEdit.h">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Include\UGEditBase.h">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Include\UGGrid.h">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Include\UGHint.h">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Include\UGMEdit.h">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Include\UGMemMan.h">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Include\UGMultiS.h">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Include\UGStrOp.h">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Include\UGTopHdg.h">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Include\ugceltyp.h">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Include\ugdefine.h">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Include\ugformat.h">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Include\uggdinfo.h">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Include\ughscrol.h">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Include\uglstbox.h">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Include\ugprint.h">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Include\ugptrlst.h">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Include\ugsidehd.h">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Include\ugstruct.h">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Include\ugtab.h">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Include\ugvscrol.h">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Include\ugxpthemes.h">
+				</File>
+			</Filter>
+			<Filter
+				Name="Source"
+				Filter="">
+				<File
+					RelativePath="Ultimate Grid\Source\UGCBType.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Source\UGCTarrw.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Source\UGCelTyp.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Source\UGCell.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Source\UGCnrBtn.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Source\UGCtrl.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Source\UGDLType.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Source\UGDrgDrp.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Source\UGDrwHnt.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Source\UGDtaSrc.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Source\UGEdit.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Source\UGEditBase.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Source\UGGrid.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Source\UGHint.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Source\UGMEdit.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Source\UGMemMan.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Source\UGMultiS.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Source\UGStrOp.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Source\UGTopHdg.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Source\UGXPThemes.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Source\ugLstBox.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Source\ugformat.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Source\uggdinfo.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Source\ughscrol.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Source\ugprint.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Source\ugptrlst.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Source\ugsidehd.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Source\ugtab.cpp">
+				</File>
+				<File
+					RelativePath="Ultimate Grid\Source\ugvscrol.cpp">
+				</File>
+			</Filter>
+		</Filter>
+		<File
+			RelativePath="ReadMe.txt">
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

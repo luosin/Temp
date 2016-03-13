@@ -1,0 +1,82 @@
+//{{NO_DEPENDENCIES}}
+// Microsoft Visual C++ generated include file.
+// Used by zncad.rc
+//
+#define IDS_PROJNAME                    100
+#define IDS_BFF_TITLE                   101
+#define IDS_BUTTON_DWGTOGRID            102
+#define IDS_BUTTON_APPLYTODWG           103
+#define IDS_BUTTON_TOXLS                104
+#define IDS_BUTTON_FROMXLS              105
+#define IDD_MOD_ENT                     140
+#define IDB_CHECKMARK                   141
+#define IDB_DUNDASLOGO                  142
+#define IDD_XHLCABLEINFO                143
+#define IDD_ZNCADOPTION                 145
+#define IDD_CABLEINFO                   146
+#define IDD_DISTTOXHL                   147
+#define IDC_LIST_GRID                   201
+#define IDC_RADIO_PMTRB_XHJ             202
+#define IDC_RADIO_PMTRB_DC              203
+#define IDC_RADIO_PMTRB_JYJ             204
+#define IDC_RADIO_PMTRB_JCB             205
+#define IDC_EDIT_PMTRB_XHJ_BLKNAME      206
+#define IDC_BUTTON_PMTRB_XHJ_SEL        207
+#define IDC_RADIO_PMTRB_JYJ1            208
+#define IDC_RADIO_PMTRB_JY2             209
+#define IDC_RADIO_PMTRB_JYJ3            210
+#define IDC_RADIO_PMTRB_JYJ4            211
+#define IDC_EDIT_CABLEINFO_ALL          212
+#define IDC_EDIT_CABLEINFO_LEN          213
+#define IDC_EDIT_CABLEINFO_DIST1        214
+#define IDC_EDIT_CABLEINFO_DIST2        215
+#define IDC_EDIT_CABLEINFO_GDNUM        216
+#define IDC_EDIT_CABLEINFO_BOXNUM       217
+#define IDC_EDIT_CABLEINFO_PLUS         218
+#define IDC_EDIT_CABLEINFO_BOXFNUM      219
+#define IDC_EDIT_CABLEINFO_INTOXHL      220
+#define IDC_EDIT_CABLEINFO_TYPE         221
+#define IDC_EDIT_CABLEINFO_BACKUP       222
+#define IDC_EDIT_CABLEINFO_COEFFICIENT  223
+#define IDC_EDIT_CABLEINFO_PERINTOXHL   224
+#define IDC_EDIT_CABLEINFO_PERGD        225
+#define IDC_EDIT_CABLEINFO_PERBETWEENGD 226
+#define IDC_EDIT_CABLEINFO_PERBOX       227
+#define IDC_EDIT_CABLEINFO_PERBOXF      228
+#define IDC_EDIT_CABLEINFO_SN           229
+#define IDC_EDIT_CABLEINFO_INTOXHLNAME  230
+#define IDC_EDIT_CABLEINFO_OLD          231
+#define IDC_EDIT_CABLEINFO_PERBETWEENBOXF 232
+#define IDC_EDIT_CABLEINFO_LENFORPLUS   233
+#define IDC_EDIT_XHLCABLE_INTOXHL       234
+#define IDC_EDIT_XHLCABLE_CROSSGD       235
+#define IDC_EDIT_XHLCABLE_PERGD         236
+#define IDC_EDIT_XHLCABLE_BETWEENGD     237
+#define IDC_EDIT_ZNOPTION_CABLE_COEFFICIENT 238
+#define IDC_EDIT_ZNOPTION_CABLE_PERINTOXHL 239
+#define IDC_EDIT_ZNOPTION_CABLE_PERGD   240
+#define IDC_EDIT_ZNOPTION_CABLE_PERBETWEENGD 241
+#define IDC_EDIT_ZNOPTION_CABLE_PERBOX  242
+#define IDC_EDIT_ZNOPTION_CABLE_PERBOXF 243
+#define IDC_EDIT_ZNOPTION_CABLE_PERBETWEENBOXF 244
+#define IDC_EDIT_ZNOPTION_TOL_CHECKGD   245
+#define IDC_RADIO_ZNOPTION_4LINE        246
+#define IDC_RADIO_ZNOPTION_2LINE        247
+#define IDC_RADIO_ZNOPTION_DS2          248
+#define IDC_RADIO_ZNOPTION_DS3          249
+#define IDC_RADIO_ZNOPTION_QK2          250
+#define IDC_RADIO_ZNOPTION_QK4          251
+#define IDC_RADIO_ZNOPTION_DCDS0        252
+#define IDC_RADIO_ZNOPTION_DCDS2        253
+#define IDC_RADIO_ZNOPTION_DCDS3        254
+
+// Next default values for new objects
+// 
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE        148
+#define _APS_NEXT_COMMAND_VALUE         32768
+#define _APS_NEXT_CONTROL_VALUE         255
+#define _APS_NEXT_SYMED_VALUE           106
+#endif
+#endif

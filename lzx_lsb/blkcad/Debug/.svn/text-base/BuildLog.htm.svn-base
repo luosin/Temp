@@ -1,0 +1,272 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=gb2312">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=宋体 size=+3>
+生成日志
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- 已启动生成：项目：blkcad，配置：Debug|Win32 -------
+</h3>
+</pre></table><table width=100%% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+环境空间
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>    ALLUSERSPROFILE=C:\Documents and Settings\All Users
+    APPDATA=C:\Documents and Settings\wangli\Application Data
+    APR_ICONV_PATH=C:\Program Files\Subversion\iconv
+    CLIENTNAME=Console
+    CommonProgramFiles=C:\Program Files\Common Files
+    COMPUTERNAME=ZHF-VM-VS2002
+    ComSpec=C:\WINDOWS\system32\cmd.exe
+    FP_NO_HOST_CHECK=NO
+    frameworkdir=c:\windows\microsoft.net\framework\
+    frameworksdkdir=d:\program files\microsoft visual studio .net\frameworksdk\
+    HOMEDRIVE=C:
+    HOMEPATH=\Documents and Settings\wangli
+    INCLUDE=D:\Program Files\Microsoft Visual Studio .NET\Vc7\include;D:\Program Files\Microsoft Visual Studio .NET\Vc7\atlmfc\include;D:\Program Files\Microsoft Visual Studio .NET\Vc7\PlatformSDK\include\prerelease;D:\Program Files\Microsoft Visual Studio .NET\Vc7\PlatformSDK\include;D:\Program Files\Microsoft Visual Studio .NET\FrameworkSDK\include;D:\ObjectARX2004\inc;
+    LIB=D:\Program Files\Microsoft Visual Studio .NET\Vc7\lib;D:\Program Files\Microsoft Visual Studio .NET\Vc7\atlmfc\lib;D:\Program Files\Microsoft Visual Studio .NET\Vc7\PlatformSDK\lib\prerelease;D:\Program Files\Microsoft Visual Studio .NET\Vc7\PlatformSDK\lib;D:\Program Files\Microsoft Visual Studio .NET\FrameworkSDK\lib;D:\ObjectARX2004\lib;
+    LIBPATH=
+    LOGONSERVER=\\ZHF-VM-VS2002
+    MSDevDir=D:\Program Files\VC++6.0\MSDev98
+    MsVCDir=d:\program files\microsoft visual studio .net\
+    NUMBER_OF_PROCESSORS=2
+    OS=Windows_NT
+    Path=D:\Program Files\Microsoft Visual Studio .NET\Vc7\bin;D:\Program Files\Microsoft Visual Studio .NET\Common7\Tools\bin\prerelease;D:\Program Files\Microsoft Visual Studio .NET\Common7\Tools\bin;D:\Program Files\Microsoft Visual Studio .NET\Common7\tools;D:\Program Files\Microsoft Visual Studio .NET\Common7\ide;C:\Program Files\HTML Help Workshop\;D:\Program Files\Microsoft Visual Studio .NET\FrameworkSDK\bin;C:\WINDOWS\Microsoft.NET\Framework\v1.0.3705;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;
+    PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH
+    PROCESSOR_ARCHITECTURE=x86
+    PROCESSOR_IDENTIFIER=x86 Family 6 Model 60 Stepping 3, GenuineIntel
+    PROCESSOR_LEVEL=6
+    PROCESSOR_REVISION=3c03
+    ProgramFiles=C:\Program Files
+    SESSIONNAME=Console
+    SystemDrive=C:
+    SystemRoot=C:\WINDOWS
+    TEMP=C:\DOCUME~1\wangli\LOCALS~1\Temp
+    TMP=C:\DOCUME~1\wangli\LOCALS~1\Temp
+    USERDOMAIN=ZHF-VM-VS2002
+    USERNAME=wangli
+    USERPROFILE=C:\Documents and Settings\wangli
+    VCInstallDir=d:\program files\microsoft visual studio .net\vc7\
+    VSCOMNTOOLS="D:\Program Files\Microsoft Visual Studio .NET\Common7\Tools\"
+    VSInstallDir=d:\program files\microsoft visual studio .net\
+    windir=C:\WINDOWS
+    _ACP_ATLPROV=D:\Program Files\Microsoft Visual Studio .NET\Vc7\bin\ATLPROV.DLL
+    _ACP_INCLUDE="..\ugrid\Ultimate Grid\Include";D:\Program Files\Microsoft Visual Studio .NET\Vc7\include;D:\Program Files\Microsoft Visual Studio .NET\Vc7\atlmfc\include;D:\Program Files\Microsoft Visual Studio .NET\Vc7\PlatformSDK\include\prerelease;D:\Program Files\Microsoft Visual Studio .NET\Vc7\PlatformSDK\include;D:\Program Files\Microsoft Visual Studio .NET\FrameworkSDK\include;D:\ObjectARX2004\inc;
+    _ACP_LIB=D:\Program Files\Microsoft Visual Studio .NET\Vc7\lib;D:\Program Files\Microsoft Visual Studio .NET\Vc7\atlmfc\lib;D:\Program Files\Microsoft Visual Studio .NET\Vc7\PlatformSDK\lib\prerelease;D:\Program Files\Microsoft Visual Studio .NET\Vc7\PlatformSDK\lib;D:\Program Files\Microsoft Visual Studio .NET\FrameworkSDK\lib;D:\ObjectARX2004\lib;;"..\ugrid\Ultimate Grid\Include";D:\Program Files\Microsoft Visual Studio .NET\Vc7\include;D:\Program Files\Microsoft Visual Studio .NET\Vc7\atlmfc\include;D:\Program Files\Microsoft Visual Studio .NET\Vc7\PlatformSDK\include\prerelease;D:\Program Files\Microsoft Visual Studio .NET\Vc7\PlatformSDK\include;D:\Program Files\Microsoft Visual Studio .NET\FrameworkSDK\include;D:\ObjectARX2004\inc;
+    _ACP_PATH=D:\Program Files\Microsoft Visual Studio .NET\Vc7\bin;D:\Program Files\Microsoft Visual Studio .NET\Common7\Tools\bin\prerelease;D:\Program Files\Microsoft Visual Studio .NET\Common7\Tools\bin;D:\Program Files\Microsoft Visual Studio .NET\Common7\tools;D:\Program Files\Microsoft Visual Studio .NET\Common7\ide;C:\Program Files\HTML Help Workshop\;D:\Program Files\Microsoft Visual Studio .NET\FrameworkSDK\bin;C:\WINDOWS\Microsoft.NET\Framework\v1.0.3705;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;
+</pre></table><table width=100%% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+命令行
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>正在创建临时文件“f:\lzx_lsb\blkcad\Debug\RSP000012.rsp”，其内容为
+[
+/Od /I "..\ugrid\Ultimate Grid\Include" /D "WIN32" /D "_WINDOWS" /D "BLKCAD_MODULE" /D "_AFXEXT" /D "_ACRXAPP" /D "_CRT_SECURE_NO_DEPRECATE" /D "_LINK_TO_UG_IN_EXTDLL" /D "_MBCS" /D "_AFXDLL" /D "_WINDLL" /Gm /EHsc /RTC1 /MD /GS /GR /Yu"stdafx.h" /Fp"Debug/blkcad.pch" /Fo"Debug/" /Fd"Debug/vc70.pdb" /W1 /c /Wp64 /ZI /TP  -Zm120
+blkcadfunc.cpp
+blkcad.cpp
+acrxEntryPoint.cpp
+ZnDmhD.cpp
+ZnDmh3.cpp
+ZnDmh2.cpp
+ZnDmh1.cpp
+ZnDmh.cpp
+YthCircuitData.cpp
+UserUtility.cpp
+TestDlg.cpp
+StationSystem2.cpp
+StationSystem.cpp
+StationSetDlg.cpp
+SBDestination.cpp
+ReadLkForPmtDlg.cpp
+ReadLKDataDlg.cpp
+ReadBztDlg.cpp
+NeuListCtrl.cpp
+MaXuBiaoForHD.cpp
+MaXuBiaoForBT.cpp
+MaXuBiaoDlg.cpp
+LocToNameDlg.cpp
+LkDataSetDlg.cpp
+LKDataTable2.cpp
+LKDataTable.cpp
+InputFxpDataDlg.cpp
+EditFreqDlg.cpp
+DocData.cpp
+DmhSetDlg.cpp
+DmhOptionsDlg.cpp
+DlpxSetDlg.cpp
+DLPXDlg.cpp
+DBUtility.cpp
+CzhfEntReactor.cpp
+ConNode.cpp
+CableNetForKZ.cpp
+CableNetForJY.cpp
+CableNetForBT.cpp
+CTestReactor.cpp
+BtTools.cpp
+BtMxbDlg.cpp
+BrowseForFolder.cpp
+]
+正在创建命令行“cl.exe @f:\lzx_lsb\blkcad\Debug\RSP000012.rsp /nologo”
+正在创建临时文件“f:\lzx_lsb\blkcad\Debug\RSP000013.rsp”，其内容为
+[
+/Od /I "..\ugrid\Ultimate Grid\Include" /D "WIN32" /D "_WINDOWS" /D "BLKCAD_MODULE" /D "_AFXEXT" /D "_ACRXAPP" /D "_CRT_SECURE_NO_DEPRECATE" /D "_LINK_TO_UG_IN_EXTDLL" /D "_MBCS" /D "_AFXDLL" /D "_WINDLL" /Gm /EHsc /RTC1 /MD /GS /GR /Yc"stdafx.h" /Fp"Debug/blkcad.pch" /Fo"Debug/" /Fd"Debug/vc70.pdb" /W1 /c /Wp64 /ZI /TP  -Zm120
+StdAfx.cpp
+]
+正在创建命令行“cl.exe @f:\lzx_lsb\blkcad\Debug\RSP000013.rsp /nologo”
+正在创建命令行“rc.exe /d "_DEBUG" /d "_AFXDLL" /l 0x409 /I "Debug" /fo"Debug/blkcad.res" blkcad.rc”
+正在创建临时文件“f:\lzx_lsb\blkcad\Debug\RSP000014.rsp”，其内容为
+[
+/OUT:"D:\Program Files\AutoCAD 2004\blkcad.arx" /INCREMENTAL /NOLOGO /DLL /DEF:"blkcad.def" /DEBUG /PDB:"Debug/blkcad.pdb" /SUBSYSTEM:WINDOWS /IMPLIB:"Debug/blkcad.lib" /MACHINE:IX86 \lzx_lsb\mygreta\Debug\mygreta.lib \lzx_lsb\ugrid\Debug\ugrid.lib \lzx_lsb\blkuserdll\Debug\blkuserdll.lib \lzx_lsb\blkdll\Debug\blkdll.lib
+Debug\BrowseForFolder.obj
+Debug\BtMxbDlg.obj
+Debug\BtTools.obj
+Debug\CTestReactor.obj
+Debug\CableNetForBT.obj
+Debug\CableNetForJY.obj
+Debug\CableNetForKZ.obj
+Debug\ConNode.obj
+Debug\CzhfEntReactor.obj
+Debug\DBUtility.obj
+Debug\DLPXDlg.obj
+Debug\DlpxSetDlg.obj
+Debug\DmhOptionsDlg.obj
+Debug\DmhSetDlg.obj
+Debug\DocData.obj
+Debug\EditFreqDlg.obj
+Debug\InputFxpDataDlg.obj
+Debug\LKDataTable.obj
+Debug\LKDataTable2.obj
+Debug\LkDataSetDlg.obj
+Debug\LocToNameDlg.obj
+Debug\MaXuBiaoDlg.obj
+Debug\MaXuBiaoForBT.obj
+Debug\MaXuBiaoForHD.obj
+Debug\NeuListCtrl.obj
+Debug\ReadBztDlg.obj
+Debug\ReadLKDataDlg.obj
+Debug\ReadLkForPmtDlg.obj
+Debug\SBDestination.obj
+Debug\StationSetDlg.obj
+Debug\StationSystem.obj
+Debug\StationSystem2.obj
+Debug\StdAfx.obj
+Debug\TestDlg.obj
+Debug\UserUtility.obj
+Debug\YthCircuitData.obj
+Debug\ZnDmh.obj
+Debug\ZnDmh1.obj
+Debug\ZnDmh2.obj
+Debug\ZnDmh3.obj
+Debug\ZnDmhD.obj
+Debug\acrxEntryPoint.obj
+Debug\blkcad.obj
+Debug\blkcadfunc.obj
+Debug\blkcad.res
+]
+正在创建命令行“link.exe @f:\lzx_lsb\blkcad\Debug\RSP000014.rsp”
+</pre></table><table width=100%% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+输出窗口
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>正在编译...
+StdAfx.cpp
+正在编译...
+blkcadfunc.cpp
+blkcad.cpp
+acrxEntryPoint.cpp
+ZnDmhD.cpp
+ZnDmh3.cpp
+ZnDmh2.cpp
+ZnDmh1.cpp
+ZnDmh.cpp
+YthCircuitData.cpp
+UserUtility.cpp
+TestDlg.cpp
+StationSystem2.cpp
+StationSystem.cpp
+StationSetDlg.cpp
+f:\lzx_lsb\blkcad\StationSetDlg.cpp(80) : warning C4996: “ATL::CRegKey::QueryValue”被声明为否决的
+        d:\Program Files\Microsoft Visual Studio .NET\Vc7\atlmfc\include\atlbase.h(4712) : 参见“ATL::CRegKey::QueryValue”的声明
+f:\lzx_lsb\blkcad\StationSetDlg.cpp(86) : warning C4996: “ATL::CRegKey::SetValue”被声明为否决的
+        d:\Program Files\Microsoft Visual Studio .NET\Vc7\atlmfc\include\atlbase.h(4702) : 参见“ATL::CRegKey::SetValue”的声明
+f:\lzx_lsb\blkcad\StationSetDlg.cpp(91) : warning C4996: “ATL::CRegKey::QueryValue”被声明为否决的
+        d:\Program Files\Microsoft Visual Studio .NET\Vc7\atlmfc\include\atlbase.h(4712) : 参见“ATL::CRegKey::QueryValue”的声明
+f:\lzx_lsb\blkcad\StationSetDlg.cpp(97) : warning C4996: “ATL::CRegKey::SetValue”被声明为否决的
+        d:\Program Files\Microsoft Visual Studio .NET\Vc7\atlmfc\include\atlbase.h(4702) : 参见“ATL::CRegKey::SetValue”的声明
+f:\lzx_lsb\blkcad\StationSetDlg.cpp(102) : warning C4996: “ATL::CRegKey::QueryValue”被声明为否决的
+        d:\Program Files\Microsoft Visual Studio .NET\Vc7\atlmfc\include\atlbase.h(4712) : 参见“ATL::CRegKey::QueryValue”的声明
+f:\lzx_lsb\blkcad\StationSetDlg.cpp(108) : warning C4996: “ATL::CRegKey::SetValue”被声明为否决的
+        d:\Program Files\Microsoft Visual Studio .NET\Vc7\atlmfc\include\atlbase.h(4702) : 参见“ATL::CRegKey::SetValue”的声明
+f:\lzx_lsb\blkcad\StationSetDlg.cpp(134) : warning C4996: “ATL::CRegKey::SetValue”被声明为否决的
+        d:\Program Files\Microsoft Visual Studio .NET\Vc7\atlmfc\include\atlbase.h(4702) : 参见“ATL::CRegKey::SetValue”的声明
+f:\lzx_lsb\blkcad\StationSetDlg.cpp(135) : warning C4996: “ATL::CRegKey::SetValue”被声明为否决的
+        d:\Program Files\Microsoft Visual Studio .NET\Vc7\atlmfc\include\atlbase.h(4702) : 参见“ATL::CRegKey::SetValue”的声明
+f:\lzx_lsb\blkcad\StationSetDlg.cpp(136) : warning C4996: “ATL::CRegKey::SetValue”被声明为否决的
+        d:\Program Files\Microsoft Visual Studio .NET\Vc7\atlmfc\include\atlbase.h(4702) : 参见“ATL::CRegKey::SetValue”的声明
+SBDestination.cpp
+ReadLkForPmtDlg.cpp
+ReadLKDataDlg.cpp
+ReadBztDlg.cpp
+NeuListCtrl.cpp
+MaXuBiaoForHD.cpp
+正在生成代码...
+正在编译...
+MaXuBiaoForBT.cpp
+MaXuBiaoDlg.cpp
+LocToNameDlg.cpp
+LkDataSetDlg.cpp
+f:\lzx_lsb\blkcad\LkDataSetDlg.cpp(92) : warning C4996: “ATL::CRegKey::QueryValue”被声明为否决的
+        d:\Program Files\Microsoft Visual Studio .NET\Vc7\atlmfc\include\atlbase.h(4712) : 参见“ATL::CRegKey::QueryValue”的声明
+f:\lzx_lsb\blkcad\LkDataSetDlg.cpp(98) : warning C4996: “ATL::CRegKey::SetValue”被声明为否决的
+        d:\Program Files\Microsoft Visual Studio .NET\Vc7\atlmfc\include\atlbase.h(4702) : 参见“ATL::CRegKey::SetValue”的声明
+f:\lzx_lsb\blkcad\LkDataSetDlg.cpp(103) : warning C4996: “ATL::CRegKey::QueryValue”被声明为否决的
+        d:\Program Files\Microsoft Visual Studio .NET\Vc7\atlmfc\include\atlbase.h(4712) : 参见“ATL::CRegKey::QueryValue”的声明
+f:\lzx_lsb\blkcad\LkDataSetDlg.cpp(109) : warning C4996: “ATL::CRegKey::SetValue”被声明为否决的
+        d:\Program Files\Microsoft Visual Studio .NET\Vc7\atlmfc\include\atlbase.h(4702) : 参见“ATL::CRegKey::SetValue”的声明
+f:\lzx_lsb\blkcad\LkDataSetDlg.cpp(113) : warning C4996: “ATL::CRegKey::QueryValue”被声明为否决的
+        d:\Program Files\Microsoft Visual Studio .NET\Vc7\atlmfc\include\atlbase.h(4711) : 参见“ATL::CRegKey::QueryValue”的声明
+f:\lzx_lsb\blkcad\LkDataSetDlg.cpp(119) : warning C4996: “ATL::CRegKey::SetValue”被声明为否决的
+        d:\Program Files\Microsoft Visual Studio .NET\Vc7\atlmfc\include\atlbase.h(4701) : 参见“ATL::CRegKey::SetValue”的声明
+f:\lzx_lsb\blkcad\LkDataSetDlg.cpp(145) : warning C4996: “ATL::CRegKey::SetValue”被声明为否决的
+        d:\Program Files\Microsoft Visual Studio .NET\Vc7\atlmfc\include\atlbase.h(4702) : 参见“ATL::CRegKey::SetValue”的声明
+f:\lzx_lsb\blkcad\LkDataSetDlg.cpp(147) : warning C4996: “ATL::CRegKey::SetValue”被声明为否决的
+        d:\Program Files\Microsoft Visual Studio .NET\Vc7\atlmfc\include\atlbase.h(4702) : 参见“ATL::CRegKey::SetValue”的声明
+f:\lzx_lsb\blkcad\LkDataSetDlg.cpp(148) : warning C4996: “ATL::CRegKey::SetValue”被声明为否决的
+        d:\Program Files\Microsoft Visual Studio .NET\Vc7\atlmfc\include\atlbase.h(4701) : 参见“ATL::CRegKey::SetValue”的声明
+LKDataTable2.cpp
+LKDataTable.cpp
+InputFxpDataDlg.cpp
+f:\lzx_lsb\blkcad\InputFxpDataDlg.cpp(71) : warning C4996: “ATL::CRegKey::SetValue”被声明为否决的
+        d:\Program Files\Microsoft Visual Studio .NET\Vc7\atlmfc\include\atlbase.h(4702) : 参见“ATL::CRegKey::SetValue”的声明
+f:\lzx_lsb\blkcad\InputFxpDataDlg.cpp(111) : warning C4996: “ATL::CRegKey::QueryValue”被声明为否决的
+        d:\Program Files\Microsoft Visual Studio .NET\Vc7\atlmfc\include\atlbase.h(4712) : 参见“ATL::CRegKey::QueryValue”的声明
+f:\lzx_lsb\blkcad\InputFxpDataDlg.cpp(117) : warning C4996: “ATL::CRegKey::SetValue”被声明为否决的
+        d:\Program Files\Microsoft Visual Studio .NET\Vc7\atlmfc\include\atlbase.h(4702) : 参见“ATL::CRegKey::SetValue”的声明
+EditFreqDlg.cpp
+DocData.cpp
+DmhSetDlg.cpp
+DmhOptionsDlg.cpp
+DlpxSetDlg.cpp
+DLPXDlg.cpp
+DBUtility.cpp
+CzhfEntReactor.cpp
+ConNode.cpp
+CableNetForKZ.cpp
+CableNetForJY.cpp
+CableNetForBT.cpp
+CTestReactor.cpp
+正在生成代码...
+正在编译...
+BtTools.cpp
+BtMxbDlg.cpp
+BrowseForFolder.cpp
+正在生成代码...
+正在编译资源...
+正在链接...
+LINK : LNK6004: 没有找到 D:\Program Files\AutoCAD 2004\blkcad.arx 或上一个增量链接没有生成它；正在执行完全链接
+  正在创建库 Debug/blkcad.lib 和对象 Debug/blkcad.exp
+rxapi.lib(libinit.obj) : warning LNK4099: 未发现 PDB“msvc.pdb”有“D:\ObjectARX2004\lib\rxapi.lib”或者在“f:\lzx_lsb\blkcad\Debug\msvc.pdb”中；正在链接对象，如同没有调试信息一样
+rxapi.lib(nullobid.obj) : warning LNK4099: 未发现 PDB“msvc.pdb”有“D:\ObjectARX2004\lib\rxapi.lib”或者在“f:\lzx_lsb\blkcad\Debug\msvc.pdb”中；正在链接对象，如同没有调试信息一样
+acedapi.lib(acedstub.obj) : warning LNK4099: 未发现 PDB“corehdr.pdb”有“D:\ObjectARX2004\lib\acedapi.lib”或者在“f:\lzx_lsb\blkcad\Debug\corehdr.pdb”中；正在链接对象，如同没有调试信息一样
+acedapi.lib(acedcls.obj) : warning LNK4099: 未发现 PDB“corehdr.pdb”有“D:\ObjectARX2004\lib\acedapi.lib”或者在“f:\lzx_lsb\blkcad\Debug\corehdr.pdb”中；正在链接对象，如同没有调试信息一样
+</pre></table><table width=100%% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+结果
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+生成日志保存在“file://f:\lzx_lsb\blkcad\Debug\BuildLog.htm”中
+blkcad - 0 错误，25 警告</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=宋体 size=+2>
+</font></table></body></html>
